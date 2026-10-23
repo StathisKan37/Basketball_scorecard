@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basketball scorecard</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="index.js" defer></script>
+</head>
+<body>
+
+<div class="scorecard">
+	<div>
+		<!-- Home score -->
+		<h1>Home</h1>
+		<div id="home" class="score">0</div>
+		<div class="score_buttons">
+			<div>
+				<button class="score_button" onclick="score_add('home', 1)">+1</button>
+				<button class="score_button" onclick="score_add('home', 2)">+2</button>
+				<button class="score_button" onclick="score_add('home', 3)">+3</button>
+			</div>
+			<div>
+				<button class="score_button" onclick="score_sub('home', 1)">-1</button>
+				<button class="score_button" onclick="score_sub('home', 2)">-2</button>
+				<button class="score_button" onclick="score_sub('home', 3)">-3</button>
+			</div>
+		</div>
+	</div>
+	<div class="game_buttons">
+		<button class="game_button" onclick="save_game()">Save Game</button>
+		<button class="game_button" onclick="new_game()">New Game</button>
+	</div>
+	<div>
+		<!-- Guest score -->
+		<h1>Guest</h1>
+		<div id="guest" class="score">0</div>
+		<div class="score_buttons">
+			<div>
+				<button class="score_button" onclick="score_add('guest', 1)">+1</button>
+				<button class="score_button" onclick="score_add('guest', 2)">+2</button>
+				<button class="score_button" onclick="score_add('guest', 3)">+3</button>
+			</div>
+			<div>
+				<button class="score_button" onclick="score_sub('guest', 1)">-1</button>
+				<button class="score_button" onclick="score_sub('guest', 2)">-2</button>
+				<button class="score_button" onclick="score_sub('guest', 3)">-3</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="saved_games" class="saved_games"></div>
+
+</body>
+</html>

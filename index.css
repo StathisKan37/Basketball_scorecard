@@ -1,0 +1,75 @@
+:root{
+	--Ink_black: #000000;
+	--Prussian_blue: #001d3d;
+	--Oxford_navy: #003566;
+	--Bus_yellow: #ffc300;
+	--Gold: #ffd60a;
+}
+
+@font-face{
+	font-family: "DSEG7";
+	src: url("https://cdn.jsdelivr.net/npm/dseg@0.46.0/fonts/DSEG7-Classic/DSEG7Classic-Regular.woff2");}
+
+body{
+	background-color: var(--Oxford_navy);}
+
+.scorecard{
+	background-color: var(--Prussian_blue);
+	margin: 40px 160px;
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;}
+
+h1{
+	font-size: 65px;
+	font-weight: bold;
+	text-align: center;
+	color: var(--Bus_yellow);}
+
+.score{
+	background-color: var(--Ink_black);
+	color: var(--Gold);
+	padding: 30px 10px;
+	font-family: DSEG7;
+	font-size: 130px;
+	width: 320px;
+	text-align: center;}
+
+.score_buttons{
+	padding: 20px 10px;
+	text-align: center;}
+
+.score_button{
+	margin: 3px;
+	width: 45px;
+	height: 45px;
+	font-size: 20px;
+	font-family: DSEG7;
+	border-color: var(--Bus_yellow);
+	border-radius: 5px;
+	background-color: var(--Prussian_blue);
+	color: var(--Bus_yellow);}
+
+.game_buttons{
+	display: flex;
+	flex-direction: column;
+	align-items: center;}
+
+.game_button{
+	margin: 5px;
+	width: 180px;
+	height: 45px;
+	font-size: 20px;
+	border-color: var(--Bus_yellow);
+	border-radius: 5px;
+	background-color: var(--Prussian_blue);
+	color: var(--Bus_yellow);}
+
+.saved_games{
+	background-color: var(--Prussian_blue);
+	margin: 40px 160px;
+	padding: 30px;
+	font-size: 35px;
+	color: var(--Bus_yellow);}
