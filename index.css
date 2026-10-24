@@ -77,7 +77,7 @@ h1{
 @media screen and (max-width: 1300px) {
 	
 	.scorecard{
-		margin: 10px 60px;
+		margin: 40px 10px;
 		flex-direction: column;
 		justify-content: start;}
 	h1{
@@ -93,5 +93,5 @@ h1{
 		width: 220px;
 		height: 65px;}
 	.saved_games{
-		margin: 10px 60px;}
+		margin: 40px 10px;}
 }
