@@ -74,7 +74,7 @@ h1{
 	font-size: 35px;
 	color: var(--Bus_yellow);}
 
-media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
 	.scorecard{
 		margin: 40px 60px;
 		flex-direction: column;
