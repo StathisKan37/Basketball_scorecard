@@ -73,3 +73,13 @@ h1{
 	padding: 30px;
 	font-size: 35px;
 	color: var(--Bus_yellow);}
+
+media screen and (max-width: 1275px) {
+	.scorecard{
+		margin: 40px 60px;
+		flex-direction: column;
+		justify-content: start;}
+
+	.saved_games{
+		margin: 40px 60px;}
+}
