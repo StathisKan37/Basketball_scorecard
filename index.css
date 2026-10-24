@@ -77,7 +77,6 @@ h1{
 @media screen and (max-width: 1300px) {
 	
 	.scorecard{
-		background-color:red;
 		margin: 40px 10px;
 		flex-direction: column;
 		justify-content: start;}
